@@ -108,7 +108,7 @@ const p2 = document.querySelectorAll('.igg p');
 for (let i = 0; i < imgD.length; i++) {
   imgD[i].addEventListener('mouseover', () => {
     imgD[i].style.transform = `translateY(${-50}px)`;
-    p2[i].style.transform = `translateY(${50}px)`;
+    p2[i].style.transform = `translateY(${80}px)`;
   });
 }
 
